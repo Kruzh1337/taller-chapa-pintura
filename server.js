@@ -40,8 +40,8 @@ app.post('/contact', async (req, res) => {
     await transporter.sendMail(mailOptions);
     res.send('Mensaje enviado');
   } catch (error) {
-    console.error('Error al enviar el mensaje:', error);
-    res.status(500).send('Error al enviar el mensaje');
+    console.error('Error al enviar el mensaje:', error);  // 👈 Esto se verá en los logs de Render
+    res.status(500).send('Error al enviar el mensaje: ' + error.message); // 👈 Esto lo ve el usuario
   }
 });
 
