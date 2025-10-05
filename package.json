@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "nodemailer": "^7.0.6"
-  }
+  },
+  "name": "html5up-hyperspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kruzh1337/taller-chapa-pintura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kruzh1337/taller-chapa-pintura/issues"
+  },
+  "homepage": "https://github.com/Kruzh1337/taller-chapa-pintura#readme"
 }
