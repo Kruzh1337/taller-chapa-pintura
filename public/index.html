@@ -270,7 +270,7 @@
 				document.getElementById('close-map').onclick = function() {
 					document.getElementById('map-modal').style.display = 'none';
 				};
-				document.querySelector('form[action="http://localhost:3000/contact"]').addEventListener('submit', function(e) {
+				document.querySelector('form[action="/contact"]').addEventListener('submit', function(e) {
   e.preventDefault();
   const form = e.target;
   const data = {
