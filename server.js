@@ -2,7 +2,6 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const app = express();
-require('dotenv').config();
 const path = require('path');
 app.use(express.static(path.join(__dirname, 'public'))); // Cambia 'public' por la carpeta donde está tu index.html
 
